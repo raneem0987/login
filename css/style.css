@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(230, 234, 237);
+    user-select: none;
+}
+
+.log{
+    background-color: #ffffff;
+    width: 25%;
+    height: 372px;
+    padding: 1rem;
+    margin: 10rem 24rem;
+    /* border-radius: 20px; */
+}
+
+.log .icon{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 0 56px;
+}
+
+.log h1{
+    color: rgb(164, 164, 164);
+    font-family: monospace;
+    /* display: inline; */
+}
+
+.log #loginForm label{
+    line-height: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
+.log #loginForm input{
+    border-radius: 35px;
+    height: 47px;
+    width: 331px;
+    border-style: solid;
+    border-color: #dcd9d9;
+    background-color: #dcd9d9;
+    cursor: text;
+}
+
+.log #loginForm button{
+    background-color: rgb(255 53 87);
+    height: 47px;
+    width: 331px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: rgb(255 53 87);
+    color: #ffffff;
+    font-family: monospace;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.log #loginForm button:hover{
+    background-color: rgb(235, 31, 68);
+    border: 1px hidden;
+}
+
+.log input{
+    background-color: rgb(255 53 87);
+    cursor: pointer;
+}
+
+.log #remember{
+    color: rgb(255 53 87);
+}
+
+/* .log p{
+    color: #8b8b8b;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: -20px 56px;
+    cursor: pointer;
+}
+
+.log p:hover{
+    color: rgb(91, 24, 225);
+} */
+
+.signup{
+    background-color: rgb(255 53 87);
+    width: 23%;
+    height: 374px;
+    padding: 1rem;
+    margin: -566px 755px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border-radius: 20px; */
+}
+
+.signup h2{
+    color: white;
+    font-family: system-ui;
+    padding: 0 4rem;
+    line-height: 1px;
+}
+
+.signup p{
+    color: white;
+    font-family: system-ui;
+    padding: 0 5rem;
+}
+
+/* .signup button{
+    width: 111px;
+    height: 49px;
+    border-radius: 26px;
+    color: #ffffff;
+    background: padding-box;
+    border-color: #ffffff;
+    border-style: solid;
+    font-size: large;
+    margin: 0 7rem;
+    cursor: pointer;
+}
+
+.signup button:hover{
+    background-color: #ffffff;
+    color: black;
+} */
